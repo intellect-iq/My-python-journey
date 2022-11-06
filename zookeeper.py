@@ -124,8 +124,8 @@ animals = [camel, lion, deer, goose, bat, rabbit]
 
 
 while True:
-    a_index = input("Please enter the number of the habitat you would like to view: > ")
-    if a_index != "exit":
+    animal_index = input("Please enter the number of the habitat you would like to view: > ")
+    if animal_index != "exit":
         print(animals[int(a_index)])
     else:
         break
